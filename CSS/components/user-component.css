@@ -1,8 +1,5 @@
 .user-component {
   display: flex;
-}
-
-.user-component {
   justify-content: space-between;
 }
 
@@ -17,11 +14,6 @@
   height: 70px;
   border-radius: 25px;
   margin-right: 20px;
-}
-
-.user-component__title {
-  font-weight: 600;
-  font-size: 22px;
 }
 
 .user-component__subtitle {
@@ -46,5 +38,19 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
